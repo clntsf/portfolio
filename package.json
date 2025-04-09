@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A work portfolio for Colin Simon-Fellowes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clntsf/portfolio.git"
+  },
+  "author": "Colin Simon-Fellowes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clntsf/portfolio/issues"
+  },
+  "homepage": "https://github.com/clntsf/portfolio#readme",
+  "dependencies": {
+    "react-router-dom": "^7.5.0"
+  }
+}
