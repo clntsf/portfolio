@@ -34,17 +34,17 @@
 }
 
 .navbar-logo {
-    width: 20px;
+    width: 30px;
+    height: 30px;
     box-sizing: content-box;
-    height: 20px;
     padding: 0px 0px 0px 0px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     border-bottom: 2px transparent solid;
 }
 
 .navbar-logo-button {
     position: relative;
-    top: -23px;
+    top: -30px;
     background: transparent;
     border: 0px transparent;
     cursor: pointer;
