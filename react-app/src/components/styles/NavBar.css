@@ -35,17 +35,25 @@
 
 .navbar-logo {
     width: 20px;
+    box-sizing: content-box;
     height: 20px;
     padding: 0px 0px 0px 0px;
-}
-
-.navbar-logo:hover {
     padding-bottom: 5px;
-    border-bottom: 2px white solid;
+    border-bottom: 2px transparent solid;
 }
 
 .navbar-logo-button {
+    position: relative;
+    top: -23px;
     background: transparent;
     border: 0px transparent;
     cursor: pointer;
+    margin: 0px 10px;
+    height: 0px;
+
+}
+
+/* update child styles on parent hover */
+.navbar-logo-button:hover .navbar-logo{
+    border-color: white;
 }
